@@ -1,10 +1,5 @@
 # Flatiron Labs Wiki
 
-## Rails Migrations
-When you are implementing a permanent action, such as creating a table, use the `change` method. A `change` method is pretty major.
-
-When implementing a minor change, such as adding or removing a column from an existing table, use the `up`/`down` methods. `Up` and `Down` methods are minor in terms of scale.
-
 ## Pull Request Process
 The Pull Request Process implies the use of `Pivotal Tracker` and `Git/Github`.
 
@@ -15,6 +10,11 @@ When a card has been completed, then a Pull Request should be submitted. The Pul
 Once the code in the Pull Request has been properly reviewed by the code tester, and has also recieved a thumbs up from at least 2 co-developers, then that branch should be merged into the develop branch.
 
 Once a branch has been merged, reach out to the QA point person to ensure a timely response.
+
+##Repository Branching Structure
+There are two primary branches that are utilized within a Flatiron Labs repo: `master` and `develop`. The rest of the branches, if there are any, should be considered feature branches.
+
+Once a feature branch has been reviewed by Scott (testing), TJ (QA), and has been given two thumbs ups by 2 other Flatiron Labs developers, then it should be merged into the `develop` branch. Once the feature is considered stable and is well-integrated within the `develop` branch, then it should be merged into `master`. 
 
 ## BDD Testing Process
 ### RSpec Unit Testing
@@ -49,3 +49,8 @@ Scenario: Invalid User
   Then I should be given a Login Failure message```
 
 There are three key words that are used to define a scenario: `Given`,`When`, and `Then`. A `Given` statement states what is known about the user at that point in time. A `When` statement specifies a user interaction that takes place. Finally, a `Then` statement specifies the result that should occur once the user action takes place.
+
+## Rails Migrations
+When you are implementing a permanent action, such as creating a table, use the `change` method. A `change` method is pretty major.
+
+When implementing a minor change, such as adding or removing a column from an existing table, use the `up`/`down` methods. `Up` and `Down` methods are minor in terms of scale.
