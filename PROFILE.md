@@ -8,25 +8,27 @@
 Clone Repo:
 
 ```console
-  git clone git@github.com:flatiron-labs/www_roots.git
+git clone git@github.com:flatiron-labs/www_roots.git
 ```
+
 Install Node:
 ```console
 brew install node
 ```
-Go into ww_roots Directory:
+Go into www_roots Directory:
 
 ```console
-  cd www_roots
+cd www_roots
 ```
 Install dependencies:
 
 ```console
 npm install
 ```
+
 Create a Feature branch and Switch to that Branch
 ```console
-git checkout -b John
+git checkout -b yourname
 ```
 Launch Server
 
@@ -44,38 +46,39 @@ Once images have been added go to the `_team.jade` partial in the `views` folder
 Once there copy a `.team_member` div and paste it before the very last div
 
 ```
-    .team_member
-      img.circle_headshot(src='images/adam.png')
-       .member_text
-         p.bio_headline
-           a.headline_link(href="") Adam Jonas
-           span - Developer Lead
-            p.bio_text I enjoy tacos, dogs, and red sour patch kids.
-            .icons
-              a(href='https://github.com/adamjonas', target='_blank'): i.fa.fa                   -github-alt
-              a(href='http://www.linkedin.com/in/ajonas/', target='_blank'): i.fa               .fa-linkedin
-              a(href='https://twitter.com/adamcjonas'): i.fa.fa-twitter
+.team_member
+  img.circle_headshot(src='images/adam.png')
+   .member_text
+     p.bio_headline
+       a.headline_link(href="") Adam Jonas
+       span - Developer Lead
+        p.bio_text I enjoy tacos, dogs, and red sour patch kids.
+        .icons
+          a(href='https://github.com/adamjonas', target='_blank'): i.fa.fa-github-alt
+          a(href='http://www.linkedin.com/in/ajonas/', target='_blank'): i.fa.fa-linkedin
+          a(href='https://twitter.com/adamcjonas'): i.fa.fa-twitter
 ```
-  Edit div with your information
+
+Edit div with your information
 
 ```
-    .team_member
-      img.circle_headshot(src='images/John.png')
-        .member_text
-          p.bio_headline
-            a.headline_link(href="") John Doe
-              span - Developer Lead
-               p.bio_text This is where you would put your bio
-               .icons
-                 a(href='https://github.com/johndoe', target='_blank'): i.fa.fa                    -github-alt
-                 a(href='http://www.linkedin.com/in/jdoe/', target='_blank'): i.fa                   .fa-linkedin
-                 a(href='https://twitter.com/johndoe'): i.fa.fa-twitter
+.team_member
+  img.circle_headshot(src='images/John.png')
+    .member_text
+      p.bio_headline
+        a.headline_link(href="") John Doe
+          span - Developer Lead
+           p.bio_text This is where you would put your bio
+           .icons
+             a(href='https://github.com/johndoe', target='_blank'): i.fa.fa-github-alt
+             a(href='http://www.linkedin.com/in/jdoe/', target='_blank'): i.fa.fa-linkedin
+             a(href='https://twitter.com/johndoe'): i.fa.fa-twitter
 ```
 </br>
 ##Pushing Changes
-##### You can add and commit your changes normally
+##### Submit a pull request
 </br>
-But you'll need submit a pull request to the `develop` branch by running `git pull --rebase develop` and wait for your request to be accepted.
+You will need to submit a pull request by pushing your branch with the committed changes to the remote repository and issuing a pull request.
 
 Congrats! You're done.
 
