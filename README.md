@@ -3,9 +3,9 @@
 ## Pull Request Process
 The Pull Request Process implies the use of `Pivotal Tracker` and `Git/Github`.
 
-For each feature card that is listed on pivotal tracker and has been started, there should be a corresponding branch in the project repository.
+For each feature card that is listed on pivotal tracker and has been started, there should be a corresponding branch in the project repository. The same naming conventions should be applied across platforms. For example, a branch name should include both the Pivotal card ID and the branch name, as shown: `123456789_new_feature`. The corresponding commit should be as follows: `[123456789_new_feature] started new feature`.
 
-When a card has been completed, then a Pull Request should be submitted. The Pull Request should correspond only to one card on Pivotal Tracker, and should be separate from any others that exist.
+When a card has been completed, then a Pull Request should be submitted. The Pull Request should correspond only to one card on Pivotal Tracker, and should be separate from any other cards that exist.
 
 Once the code in the Pull Request has been properly reviewed by the code tester, and has also recieved a thumbs up from at least 2 co-developers, then that branch should be merged into the develop branch.
 
@@ -29,7 +29,7 @@ We implement feature tests using Cucumber. Feature tests are also known as integ
 
 Feature tests are written out via plain text stories, and once the feature steps are generated, we make the tests pass using succinct, clear Ruby code.
 
-Each feature is described using three general statements: As a <role>, I need to do <something>, and So that I may see <expected outcome>. Each feature story describes the general feature in terms of who the user is (`As`), what the user should expect to see (`I`), and what the expected result is once the user finishes interacting with the login page(`So`). For example, when we write a feature story, we do so in the following format:
+Each feature is described using three general statements: `As a <role>`, `I need to do <something>`, and `So that I may see <expected outcome>`. Each feature story describes the general feature in terms of who the user is (`As`), what the user should expect to see (`I`), and what the expected result is once the user finishes interacting with the login page(`So`). For example, when we write a feature story, we do so in the following format:
 
 ```ruby Cuke Story
 Feature: Story
@@ -55,7 +55,7 @@ When implementing a minor change, such as adding or removing a column from an ex
 
 ## Application Launch Checklist
 
-Once an application is near or has reached completion, then we proceed into the following launch checklist. This checklist ensures that there are vital components in place for a production environment. 
+Once an application is near or has reached completion, then we proceed into the following launch checklist. This checklist ensures that there are vital components in place for a production environment.
 
 - Is there a favicon?
 - Are there proper meta-tags in place (think FB & Twitter)
@@ -84,4 +84,4 @@ Have you included a Google Analytics code?
 - Append 'js' tag to HTML/CSS classes & ids for context
 - Pivotal Card ID in branch and commit message
   - POSS EXAMPLE BRANCH: 123456789_new_feature
-  - POSS EXAMPLE COMMIT: [123456789] started new feature
+  - POSS EXAMPLE COMMIT: [123456789_new_feature] started new feature
