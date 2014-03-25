@@ -20,7 +20,7 @@
 
 ###What You Should Learn For Today:
 
-Flatiron Labs uses a [development model](http://nvie.com/posts/a-successful-git-branching-model/) work flow. Read more about that [here]((http://nvie.com/posts/a-successful-git-branching-model/).
+Flatiron Labs uses a [development model](http://nvie.com/posts/a-successful-git-branching-model/) work flow. Read more about that [here](http://nvie.com/posts/a-successful-git-branching-model/).
 
 and you'll need to know why we use `git pull --rebase` instead of `git pull` you can read about that [here](http://flatiron-labs.tumblr.com/post/80179930200/git-pull-rebase-vs-git-pull).
 
