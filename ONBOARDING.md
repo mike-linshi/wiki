@@ -8,7 +8,8 @@
 <li> Pivotal Tracker
 <li> Access to Flatiron Labs Github
 
-###Productive Tools You Should Download:
+### Tools You Should Consider:
+<li>A list of githuber's [dotfiles](http://dotfiles.github.io/) that you might want to consider using.</li>
 <li>[Alfred](http://www.alfredapp.com/) saves you time when you search for files online or on your Mac.
 <li>[Postgres App](http://postgresapp.com/) is the easiest way to get started with PostgreSQL on Mac.
 <li>[Divvy](https://mizage.com/divvy/), [Breeze](https://itunes.apple.com/us/app/breeze/id414857071?mt=12), and [Spectacle](http://spectacleapp.com/) are all windows management apps. Choose one.
