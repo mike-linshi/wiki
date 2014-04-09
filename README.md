@@ -85,3 +85,23 @@ Have you included a Google Analytics code?
 - Pivotal Card ID in branch and commit message
   - POSS EXAMPLE BRANCH: 123456789_new_feature
   - POSS EXAMPLE COMMIT: [123456789_new_feature] started new feature
+
+##Book Club at Flatiron labs
+
+###Pertinent Information
+- Event Time: 12-1PM, Thursdays
+- Location: Brooklyn Campus (25 Chapel St, #1006)
+
+###To Do Before Book Club Meeting
+- Read the assigned chapters!
+- Take notes
+- Bring in 3 thoughts/points of discussion to share with the group
+
+###During Book Club Meeting
+- Actively partake in the discussion
+- Bring up key takeaways that resonated with you
+- Bring up questions that you had during the reading, or ask for more clarification on a subject
+- Discuss code examples
+
+###Books Covered
+- Principles of Object-Oriented Design (Sandi Metz)

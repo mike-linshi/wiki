@@ -14,7 +14,7 @@ Each feature is described using three words: As, I, and So. The feature story de
 eg. meta tags, GA, favicon, taking down staging data, make sure all images have alt attributes
 TL;DR Jonas will send this out.
 
-## STYLE GUIDE?
+## Style Guide
 
 1) 2 space indent
 2) READABILITY: Spacing between CSS / JS Functions / Methods, etc... = 1 empty line
