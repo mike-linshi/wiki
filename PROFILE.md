@@ -1,10 +1,10 @@
 #Set Up Your Profile
-</br>
+
 ####These are instructions for adding a Developer or Developer Apprentice to the Flatiron Labs website.
-</br>
+
 ## Set Up Environment
 #####The Website runs on Node so you will need to have Node installed on your computer.
-</br>
+
 Clone Repo:
 
 ```console
@@ -38,12 +38,12 @@ node app.js
 
 ## Create Your Profile
 #####You'll need to have an image of yourself and one of your spirit animal to make a profile.
-</br>
-Add your two images to `public/images` folder
 
-Once images have been added go to the `_team.jade` partial in the `views` folder
+- Add your two images to `public/images` folder
 
-Once there copy a `.team_member` div and paste it before the very last div
+- Once images have been added go to the `_team.jade` partial in the `views` folder
+
+- Once there copy a `.team_member` div and paste it before the very last div
 
 ```
 .team_member
@@ -59,7 +59,7 @@ Once there copy a `.team_member` div and paste it before the very last div
           a(href='https://twitter.com/adamcjonas'): i.fa.fa-twitter
 ```
 
-Edit div with your information
+- Edit div with your information
 
 ```
 .team_member
@@ -74,13 +74,10 @@ Edit div with your information
              a(href='http://www.linkedin.com/in/jdoe/', target='_blank'): i.fa.fa-linkedin
              a(href='https://twitter.com/johndoe'): i.fa.fa-twitter
 ```
-</br>
+
 ##Pushing Changes
 ##### Submit a pull request
-</br>
-You will need to submit a pull request by pushing your branch with the committed changes to the remote repository and issuing a pull request.
 
-Congrats! You're done.
+- You will need to submit a pull request by pushing your branch with the committed changes to the remote repository and issuing a pull request.
 
-
-
+- Congrats! You're done.
