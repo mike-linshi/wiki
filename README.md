@@ -90,7 +90,7 @@ Have you included a Google Analytics code?
 
 ###Pertinent Information
 - Event Time: 12-1PM, Thursdays
-- Location: Brooklyn Campus (25 Chapel St, #1006)
+- Location: Flatiron School, 11 Broadway (#260)
 
 ###To Do Before Book Club Meeting
 - Read the assigned chapters!
@@ -105,3 +105,4 @@ Have you included a Google Analytics code?
 
 ###Books Covered
 - Principles of Object-Oriented Design (Sandi Metz)
+- The Pragmatic Programmer (Dave Thomas, Andy Hunt)
