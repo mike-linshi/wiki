@@ -29,3 +29,11 @@
 
 ###Your First Project:
 - For your first project you'll be adding yourself to the Flatiron Labs website. You can use this [guide](https://github.com/flatiron-labs/wiki/blob/master/PROFILE.md) for direction on how to do that.
+
+###Our Application Ecosystem
+We maintain a collection of internal services, each with their own set of responsibilities.
+
+See how they connect:
+[Architecture Diagram](https://docs.google.com/a/flatironschool.com/drawings/d/190OqUTvrVonbboOfADVcHjS26quR-Ur9Rg3biI1tlRc/edit)
+See how we talk about them:
+[Ubiquitous Language](https://docs.google.com/a/flatironschool.com/document/d/1fgFQ7gn-a8YpKnPO2ztJV36uJ3IeEYck9Jlokw8lujY/edit?usp=sharing)
