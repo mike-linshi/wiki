@@ -8,12 +8,17 @@
 - Pivotal Tracker
 - Access to Flatiron Labs Github
 
+###Environment Setup
+- Make sure you have [your ideal environment set up](https://github.com/flatiron-school-curriculum/ruby-environment-setup).
+- You are definitely going to need [heroku toolbelt](https://toolbelt.heroku.com).
+
+
 ###Tools You Should Consider:
 - A list of Github [dotfiles](http://dotfiles.github.io/) that you might want to consider using.
 - [Alfred](http://www.alfredapp.com/) saves you time when you search for files online or on your Mac.
 - [Postgres App](http://postgresapp.com/) is the easiest way to get started with PostgreSQL on Mac.
 - [Divvy](https://mizage.com/divvy/), [Breeze](https://itunes.apple.com/us/app/breeze/id414857071?mt=12), and [Spectacle](http://spectacleapp.com/) are all windows management apps. Choose one.
-- [GitX ](http://gitx.frim.nl/) is a git GUI made for Mac OS X.
+- [GitX](http://gitx.frim.nl/) is a git GUI made for Mac OS X.
 
 ###Memberships:
 - Gym
