@@ -1,20 +1,53 @@
 # Flatiron Labs Wiki
 
 ## Pull Request Process
-The Pull Request Process implies the use of `Pivotal Tracker` and `Git/Github`.
+### Each Pull Request has an ID and description
+Each pull request that gets submitted should have a corresponding Pivotal card ID attached in the description.
 
-For each feature card that is listed on pivotal tracker and has been started, there should be a corresponding branch in the project repository. The same naming conventions should be applied across platforms. For example, a branch name should include both the Pivotal card ID and the branch name, as shown: `123456789_new_feature`. The corresponding commit should be as follows: `[123456789_new_feature] started new feature`.
+### Difference between Master and Feature branch
+Master represents the pristine, unfettered source of code. A feature branch should represent the pristine, unfettered source of code for that feature. Therefore, a sub-feature branch should be the best version of what you can implement.
 
-When a card has been completed, then a Pull Request should be submitted. The Pull Request should correspond only to one card on Pivotal Tracker, and should be separate from any other cards that exist.
+On big projects, typically you submit a pull request into a feature branch, particularly when you are working on a large feature. We call this a sub-feature.
 
-Once the code in the Pull Request has been properly reviewed by the code tester, and has also recieved a thumbs up from at least 2 co-developers, then that branch should be merged into the develop branch.
+### Comments
+When we have a pull request open, the goal is to have as few/little comments as possible. When there are a LOT of comments made on a pull request, something is going on. This is an indicator that your pull request is not ready to be merged into the feature/master branch.
 
-Once a branch has been merged, reach out to the QA point person to ensure a timely response.
+### Code Ownership
+Ownership of code. This code is a reflection of all of us who have worked on the project, because it speaks to the quality of the project and its underlying code. This is why we need to be critical during review of other PRs.
 
-##Repository Branching Structure
-There are two primary branches that are utilized within a Flatiron Labs repo: `master` and `develop`. The rest of the branches, if there are any, should be considered feature branches.
+### Importance of File Changes
+If there are a lot of files changed, that means that there is a lot of breadth. If there are a lot of new LOCs, then that generally means that there is a lot of depth. However, if there is only a small incremental change in LOCs and a lot of files changed, then there's a lot of breadth, but not a lot of depth. We want to aim for more depth when working on a feature. Aim for proportionality -- for a level 2 card, there should be a correspondingly low level of commits; for a level 5 card, there should be a correspondingly high level of commits.
 
-Once a feature branch has been reviewed by Scott (testing), TJ (QA), and has been given two thumbs ups by 2 other Flatiron Labs developers, then it should be merged into the `develop` branch. Once the feature is considered stable and is well-integrated within the `develop` branch, then it should be merged into `master`.
+AJ typically reviews a PR by going through the 'Files Changed' tab. This helps to get an understanding of what was done, and its corresponding scope.
+
+### Outdated Diff Tab
+If you see 'outdated diff', that probably means that an issue that was commented on was corrected. Assumption that one would make upon seeing that is that this issue is no longer an issue, and move on to the next issue.
+
+### Opening a PR Early
+If you're not quite comfortable with what you're doing, it's okay to put it out as an early PR in order to get feedback.
+
+### Launching to Server
+  - Open a PR
+  - Before giving a thumbs up
+  - Before launching to staging
+  - Before launching to production
+
+### Gitx
+  - Master is green
+  - Remote branch is light blue
+  - When 'Merge Pull Request' button is green, it's good to go
+  - When 'Merge Pull Request' button is grey, you have issues (probably need to rebase master on top of your feature branch, or your feature branch on top of your sub-feature branch)
+  - Easy to use the 'amend' feature
+
+### Being a Good Driver
+  - Anticipation of what other people are going to do
+  - Communication is the foundation of understanding a feature/project
+  - Direction is important; ties into communication
+
+### Takeaways
+  - Have a mental checklist in place to review code before opening PR
+  - Take ownership of your code, as well as your co-worker's code
+  - Understand the differences between master/feature branch protocols
 
 ## BDD Testing Process
 ### RSpec Unit Testing
@@ -35,7 +68,8 @@ Each feature is described using three general statements: `As a <role>`, `I need
 Feature: Story
   As a User
   I need to be able to see the login page
-  So that I can log in```
+  So that I can log in
+```
 
 The next step is to implement a `Scenario`. Each scenario is a defined user environment that specifies what the user is trying to do at that point, and what the user should expect to see once the user's actions have been implemented. Each scenario is effectively testing a small component of the overall feature to ensure the feature performs as expected.
 
@@ -46,7 +80,8 @@ Scenario: Invalid User
   Given I am not logged in
   And I am an invalid User
   When I try to log in
-  Then I should be given a Login Failure message```
+  Then I should be given a Login Failure message
+```
 
 ## Rails Migrations
 When you are implementing a permanent action, such as creating a table, use the `change` method. A `change` method is pretty major.
@@ -60,7 +95,7 @@ Once an application is near or has reached completion, then we proceed into the 
 - Is there a favicon?
 - Are there proper meta-tags in place (think FB & Twitter)
 - Bonus points, what happens if I drop the root domain into a FB share box?
-Have you included a Google Analytics code?
+- Have you included a Google Analytics code?
 - Who needs access to this?
 - Are there proper error pages?
 - Have you included an exception tracker like Airbrake or Sentry?
@@ -78,7 +113,7 @@ Have you included a Google Analytics code?
 - Have you installed Cloudflare and set up caching rules?
 - Have you properly run your application through Blitz.io?
 
-##Style Guide
+## Style Guide
 - 2 space code indentation (for readability)
 - 1 line buffer between code blocks
 - Append 'js' tag to HTML/CSS classes & ids for context
@@ -86,23 +121,23 @@ Have you included a Google Analytics code?
   - POSS EXAMPLE BRANCH: 123456789_new_feature
   - POSS EXAMPLE COMMIT: [123456789_new_feature] started new feature
 
-##Book Club at Flatiron labs
+## Book Club at Flatiron labs
 
-###Pertinent Information
+### Pertinent Information
 - Event Time: 12-1PM, Thursdays
 - Location: Flatiron School, 11 Broadway (#260)
 
-###To Do Before Book Club Meeting
+### To Do Before Book Club Meeting
 - Read the assigned chapters!
 - Take notes
 - Bring in 3 thoughts/points of discussion to share with the group
 
-###During Book Club Meeting
+### During Book Club Meeting
 - Actively partake in the discussion
 - Bring up key takeaways that resonated with you
 - Bring up questions that you had during the reading, or ask for more clarification on a subject
 - Discuss code examples
 
-###Books Covered
+### Books Covered
 - Principles of Object-Oriented Design (Sandi Metz)
 - The Pragmatic Programmer (Dave Thomas, Andy Hunt)
