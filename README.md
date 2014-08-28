@@ -65,10 +65,10 @@ Feature tests are written out via plain text stories, and once the feature steps
 Each feature is described using three general statements: `As a <role>`, `I need to do <something>`, and `So that I may see <expected outcome>`. Each feature story describes the general feature in terms of who the user is (`As`), what the user should expect to see (`I`), and what the expected result is once the user finishes interacting with the login page(`So`). For example, when we write a feature story, we do so in the following format:
 
 ```ruby Cuke Story
-Feature: Story
-  As a User
-  I need to be able to see the login page
-  So that I can log in
+  Feature: Story
+    As a User
+    I need to be able to see the login page
+    So that I can log in
 ```
 
 The next step is to implement a `Scenario`. Each scenario is a defined user environment that specifies what the user is trying to do at that point, and what the user should expect to see once the user's actions have been implemented. Each scenario is effectively testing a small component of the overall feature to ensure the feature performs as expected.
@@ -76,11 +76,11 @@ The next step is to implement a `Scenario`. Each scenario is a defined user envi
 There are three key statements that are used to define a scenario: `Given`,`When`, and `Then`. These also follow the AAA pattern mentioned in paragraph 3 of this section. A `Given` statement is where we arrange the data necessary to recreate the scenario. A `When` statement specifies a user interaction that allows us to act upon the arranged data. Finally, a `Then` statement asserts a result or outcome that should occur once the user action takes place.
 
 ```ruby Scenario
-Scenario: Invalid User
-  Given I am not logged in
-  And I am an invalid User
-  When I try to log in
-  Then I should be given a Login Failure message
+  Scenario: Invalid User
+    Given I am not logged in
+    And I am an invalid User
+    When I try to log in
+    Then I should be given a Login Failure message
 ```
 
 ## Rails Migrations
