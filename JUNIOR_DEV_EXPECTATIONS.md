@@ -1,10 +1,10 @@
 # Junior Dev Expectations
 
-## Be a good teammate
+## You are expected to be a good teammate
 
 ### Be on time
 
-Flatiron School's start time is 9 AM so the default start time is 9 AM. Your project team may decide on another start time at the discretion of your manager. Once that time has been decided on you are expected to arrive to work on time. Most team check ins happen first thing in the morning and your presence is counted on in order to plan the resourcing for the day.
+Flatiron School's start time is 9 AM so the default start time for Labs is 9 AM. Your project team may decide on another start time at the discretion of your manager. In any event, you are expected to arrive to work on time. Most team check-ins happen first thing in the morning and your presence is counted on in order to plan the resourcing for the day.
 
 If you have a scheduled meeting, you should arrive on time. Your co-worker's time is as valuable as yours.
 
@@ -35,7 +35,7 @@ Ask questions
   - When you don't understand something ask someone who does.
 
 Take product ownership
-  - The world has enough developers can't communicate with non-technical workers. Endeavor to understand the business objectives. Be patient. Remember what is was like to not know how to code.
+  - The world has enough developers who don't communicate with their non-technical co-workers. Endeavor to understand the business objectives. Be patient. Remember what is was like to not know how to code.
 
 
 ## Be easy to manage
@@ -53,16 +53,16 @@ It is your responsibility to tell your manager when:
 ### Ask for what you need
 It is easier to give you something that you need when you tell us. Be vocal about what you need to make you a better employee.
 
-## Strive to improve
+## You are expected to strive to improve
 
 ### Ask questions
-Always ask questions but strive to only ask a question only **one time**. 
+Always ask questions when you need help, but strive to only ask a question only *once*.
   - This is nearly impossible, but your goal would be to record or remember the answer when someone has taken the time to explain a solution to you.
-  - What you want to avoid is asking the same question over and over. This demonstrates that you did not internalize the problem and/or that you don't fully appreciate people's time.
-    - This may require you to organize your learnings with some sort of structure like Evernote, a code blog, or simply a notebook.
+  - You want to avoid is asking the same question over and over. This demonstrates that you did not internalize the problem and/or that you don't fully appreciate people's time.
+    - Unless you have an exceptional memory, this may require you to organize your learnings with some sort of structure like Evernote, a code blog, or simply a notebook.
 
 ### Do your best
-You are expected to do your best. Nothing less. Nothing more.
+You are expected to do your best. Nothing less. Nothing more. (But certainly not anything less.)
 
 ### Apply the feedback provided to you
 Managers are tasked providing you with feedback to improve. You are expected to apply that feedback.
@@ -71,7 +71,4 @@ Managers are tasked providing you with feedback to improve. You are expected to 
   - Learn what break schedule maximizes your productivity
   - You are expected to stay up to date with the latest major developments in the Ruby, Rails, and Flatiron communities.
   - Pseudocode
-    - You are expected to pseudocode your implementation before diving directly into the code.
-
-
-
+    - As a beginner, you are expected to pseudocode your implementation before diving directly into the code in order to separate your problem solving strategies from your focus on syntax.
