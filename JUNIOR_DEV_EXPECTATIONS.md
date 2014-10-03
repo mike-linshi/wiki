@@ -16,7 +16,7 @@ You are expected to get your work done. This means that you must understand the 
 Push your code everyday
   - This does not mean you need to ship a feature everyday, but if you are writing code, it should be on Github before you go home for the day. A team's code base is built on the code that resides on the remote repo. If you have code on your machine that needs to be used by teammate it needs to be on Github.
   - Pushing your code demonstrates what you accomplished for the day. You are not judged by how many lines of code you ship, but having a daily record of code can be an indication of your productivity.
-- If your hard drive crashes, having a backup will save you.
+  - If your hard drive crashes, having a backup will save you.
 
 Follow Pull Request Etiquette
   - Hold yourself to the highest standard. Don't open a pull-request (PR) unless it is ready for review by others. 
