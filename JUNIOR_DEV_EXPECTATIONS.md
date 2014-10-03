@@ -9,12 +9,12 @@ Flatiron School's start time is 9 AM so the default start time for Labs is 9 AM.
 If you have a scheduled meeting, you should arrive on time. Your co-worker's time is as valuable as yours.
 
 ### Use project management tools to track your progress
-This allows others to see what you are working on and helps others manage their feature workflow
+This allows others to see what you are working on and helps others manage their feature workflow.
 
-You are expected to get your work done. This means that you must understand the requirements of the task and deliver a finished product. You should take personal responsibility of the work assigned to you.
+You are expected to get your work done. This means that you must understand the requirements of the task and deliver a finished product. If you don't understand what has been assigned to you, it is your responsibility to ask.
 
 Push your code everyday
-  - This does not mean you need to ship a feature everyday, but if you are writing code, it should be on Github before you go home for the day. A team's code base is built on the code that resides on the remote repo. If you have code on your machine that needs to be used by teammate it needs to be on Github.
+  - This does not mean you need to ship a feature everyday, but if you are writing code, it should be on Github before you go home for the day. A team's code base is built on the code that resides on the remote repo. If you have code on your machine that needs to be used by a teammate it needs to be on Github.
   - Pushing your code demonstrates what you accomplished for the day. You are not judged by how many lines of code you ship, but having a daily record of code can be an indication of your productivity.
   - If your hard drive crashes, having a backup will save you.
 
@@ -26,6 +26,7 @@ Follow Pull Request Etiquette
       - You will see what code is being introduced to the code base.
       - You will improve your code reading skills.
     - Leave a :+1: when you approve of a merge into `master`.
+    - Your project leader should be the one that actually presses the green button to merge in your code unless you have been instructed otherwise.
 
 Follow Communication Etiquette
   - If you need something from someone within an hour, IM them even if you are sitting next to them.
@@ -71,5 +72,5 @@ Managers are tasked providing you with feedback to improve. You are expected to 
 ### Maximize your productivity 
   - Learn what break schedule maximizes your productivity
   - You are expected to stay up to date with the latest major developments in the Ruby, Rails, and Flatiron communities.
-  - Pseudocode
+  - Pseudocode *(strong suggested)*
     - As a beginner, you are expected to pseudocode your implementation before diving directly into the code in order to separate your problem solving strategies from your focus on syntax.
