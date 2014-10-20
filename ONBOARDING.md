@@ -5,7 +5,6 @@
 ###Accounts You'll need to be invited to:
 - Flatiron email address
 - HipChat account
-- Pivotal Tracker
 - Access to Flatiron Labs Github
 
 ###Environment Setup
