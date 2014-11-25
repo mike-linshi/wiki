@@ -29,6 +29,8 @@ Follow Pull Request Etiquette
     - Your project leader should be the one that actually presses the green button to merge in your code unless you have been instructed otherwise.
 
 Follow Communication Etiquette
+  *As a rule of thumb:*
+
   - If you need something from someone within an hour, IM them even if you are sitting next to them.
   - If you need something from someone by the end of the day, email them.
   - If their house is on fire, tap them on the shoulder. Always IM before tapping someone on the shoulder unless you see them walking around or they are clearly not in the middle of something.
