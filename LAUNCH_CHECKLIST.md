@@ -11,7 +11,7 @@ Launch Checklist
 - [ ] Have you upgraded the database to a [Production Tier](https://addons.heroku.com/heroku-postgresql) database?
 - [ ] Is there a [Pingdom](http://pingdom.com) monitor running?
 - [ ] If your project is hosted on [Heroku](http://heroku.com), is it running on [Unicorn](https://blog.heroku.com/archives/2013/2/27/unicorn_rails)?
-- [ ] If your project is hosted on [Heroku](http://heroku.com), have you run the Heroku Production check?
+- [ ] If your project is hosted on [Heroku](http://heroku.com), have you run the [Heroku Production Check](https://blog.heroku.com/archives/2013/4/26/introducing_production_check)?
 - [ ] Do all your images have `alt` attributes?
 - [ ] Do you have any `console.log`s still in your JS?
 - [ ] Are there any debug or testing routes still accessible?
