@@ -4,7 +4,7 @@
 
 ###Accounts You'll need to be invited to:
 - Flatiron email address
-- HipChat account
+- Slack chat client account
 - Access to Flatiron Labs Github
 
 ###Environment Setup
