@@ -1,4 +1,4 @@
-# Junior Dev Expectations
+# Dev Expectations
 
 ## You are expected to be a good teammate
 
