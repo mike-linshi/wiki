@@ -1,0 +1,23 @@
+Launch Checklist
+----------------
+
+- [ ] Is there a favicon?
+- [ ] Are there proper meta-tags in place (think [FB](http://developers.facebook.com/docs/opengraph/) & [Twitter](https://dev.twitter.com/docs/cards))
+  - Bonus points, what happens if I drop the root domain into a FB share box?
+- [ ] Have you included a [Google Analytics](http://google.com/analytics) code?
+  - Who needs access to this?
+- [ ] Are there proper error pages?
+- [ ] Have you included an exception tracker like [Airbrake](http://airbrake.io) or [Sentry](https://getsentry.com/welcome/)?
+- [ ] Have you upgraded the database to a [Production Tier](https://addons.heroku.com/heroku-postgresql) database?
+- [ ] Is there a [Pingdom](http://pingdom.com) monitor running?
+- [ ] If your project is hosted on [Heroku](http://heroku.com), is it running on [Unicorn](https://blog.heroku.com/archives/2013/2/27/unicorn_rails)?
+- [ ] If your project is hosted on [Heroku](http://heroku.com), have you run the [Heroku Production Check](https://blog.heroku.com/archives/2013/4/26/introducing_production_check)?
+- [ ] Do all your images have `alt` attributes?
+- [ ] Do you have any `console.log`s still in your JS?
+- [ ] Are there any debug or testing routes still accessible?
+- [ ] Has all staging demo data been removed?
+- [ ] Have DB column limits been set reasonably?
+- [ ] Have you properly indexed your database?
+- [ ] If your project is hosted on [Heroku](http://heroku.com), have you enabled PGBackups add-on?
+- [ ] Have you installed [Cloudflare](https://www.cloudflare.com/) and set up caching rules?
+- [ ] Have you properly run your application through [Blitz.io](https://www.blitz.io/)?
