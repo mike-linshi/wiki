@@ -32,7 +32,7 @@ If you're not quite comfortable with what you're doing, it's okay to put it out 
   - Be available to respond to comments and questions
   - Make revisions
   - Get a thumbs up from 2 people and at least one senior dev
-  - Merge
+  - Merge into master
   - Test on Staging
   - Deploy to production and watch for errors
 
