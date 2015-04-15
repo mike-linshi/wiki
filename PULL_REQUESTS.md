@@ -27,18 +27,22 @@ If you're not quite comfortable with what you're doing, it's okay to put it out 
 
 ### Launching to Server
   - Open a PR
+  - Test on QA
   - Solicit feedback by asking for a PR with tags or on the slack channel
   - Be available to respond to comments and questions
   - Make revisions
   - Get a thumbs up from 2 people and at least one senior dev
-  
+  - Merge
   - Test on Staging
-  - Before launching to production
+  - Deploy to production and watch for errors
 
 ### Being a Good Driver
   - Anticipation of what other people are going to do
   - Communication is the foundation of understanding a feature/project
   - Direction is important; ties into communication
+
+### Weekends
+  - Do not merge complex features on Fridays. Bug fixes, CSS, or small modifications are fine, but no one wants to be worried about code over the weekend. There are likely very few features that can't wait until we are all in the office on Monday. Don't be in a rush, it will make all of our weekends much better if we just wait.
 
 ### Takeaways
   - Have a mental checklist in place to review code before opening PR
