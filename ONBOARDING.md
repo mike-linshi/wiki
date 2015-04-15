@@ -1,40 +1,28 @@
 #First Day at Flatiron Labs
 
-#####Congratulations on joining the team at Flatiron Labs! This is a guide of helpful todos, links, and resources to ease your transition and guide you through the first day.
+#### Congratulations on joining the team at Flatiron Labs! This is a guide of helpful todos, links, and resources to ease your transition and guide you through the first day.
 
-###Accounts You'll need to be invited to:
-- Flatiron email address
-- Slack chat client account
-- Access to Flatiron Labs Github
+### Ask Mike Linshi about the [trello board](https://trello.com/b/ufYkaydb/onboarding)
+- Completing that will take care of most the stuff you need company wide. After you get the accounts you need, come on back here.
 
 ###Environment Setup
 - Make sure you have [your ideal environment set up](https://github.com/flatiron-school-curriculum/ruby-environment-setup).
-- You are definitely going to need [heroku toolbelt](https://toolbelt.heroku.com).
 
-
-###Tools You Should Consider:
+###Tools You Might Consider:
 - A list of Github [dotfiles](http://dotfiles.github.io/) that you might want to consider using.
 - [Alfred](http://www.alfredapp.com/) saves you time when you search for files online or on your Mac.
 - [Postgres App](http://postgresapp.com/) is the easiest way to get started with PostgreSQL on Mac.
 - [Divvy](https://mizage.com/divvy/), [Breeze](https://itunes.apple.com/us/app/breeze/id414857071?mt=12), and [Spectacle](http://spectacleapp.com/) are all windows management apps. Choose one.
-- [GitX](http://gitx.frim.nl/) is a git GUI made for Mac OS X.
 
-###Memberships:
-- Gym
-- Key Card Access
 
 ###What You Should Learn For Today:
 
-- Flatiron Labs uses a [development model](http://nvie.com/posts/a-successful-git-branching-model/) work flow. Read more about that [here](http://nvie.com/posts/a-successful-git-branching-model/).
+#### Git workflow
+- We use `git pull --rebase` instead of `git pull` in pretty much all cases. You can read about that [here](http://flatiron-labs.tumblr.com/post/80179930200/git-pull-rebase-vs-git-pull).
 
-- We use `git pull --rebase` instead of `git pull`. You can read about that [here](http://flatiron-labs.tumblr.com/post/80179930200/git-pull-rebase-vs-git-pull).
+- Flatiron Labs uses a Github workflow close to what is outlined [here](https://www.atlassian.com/git/tutorials/merging-vs-rebasing/the-golden-rule-of-rebasing).
 
-- You'll want to get familiar with the Flatironlabs Labs [Githhub Repository](https://github.com/flatiron-labs) and The Flatiron Labs [wiki](https://github.com/flatiron-labs/wiki)
-
-###Your First Project:
-- For your first project you'll be adding yourself to the Flatiron Labs website. You can use this [guide](https://github.com/flatiron-labs/wiki/blob/master/PROFILE.md) for direction on how to do that.
-
-###Our Application Ecosystem
+####Our Application Ecosystem
 We maintain a collection of internal services, each with their own set of responsibilities.
 
 See how they connect:
@@ -42,3 +30,17 @@ See how they connect:
 
 See how we talk about them:
 [Ubiquitous Language](https://docs.google.com/a/flatironschool.com/document/d/1fgFQ7gn-a8YpKnPO2ztJV36uJ3IeEYck9Jlokw8lujY/edit?usp=sharing)
+
+- You'll want to get familiar with the Flatiron Labs [Githhub Repository](https://github.com/flatiron-labs) and The Flatiron Labs [wiki](https://github.com/flatiron-labs/wiki). You are going to want to check out [Ironboard](https://github.com/flatiron-labs/ironboard) which is the internal project name for the code that runs Learn.co. You should probably take the time to spin that up locally. Also check out:
+  - [Ironbroker](https://github.com/flatiron-labs/iron-broker)
+  - [Curriculum](https://github.com/flatiron-labs/lms-curriculum-app)
+  - [Ironbuild](https://github.com/flatiron-school/iron-build-manager)
+  - [Environmentalizer](https://github.com/flatiron-school/environmentalizer)
+  - [Ironboard Gem](https://github.com/flatiron-labs/ironboard-gem)
+  - [Registrar](https://github.com/flatiron-labs/registrar)
+  - [People](https://github.com/flatiron-labs/hire-crm) which is internally named Hire
+  - [Operations](https://github.com/flatiron-labs/operations), you will need to do stuff with your SSH keys on the servers.
+
+### This is not a finished onboarding workflow
+
+  - Please take some time to reflect on this process and make PRs as needed to update this and other onboarding documents as necessary. 
