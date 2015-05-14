@@ -18,9 +18,10 @@
 ###What You Should Learn For Today:
 
 #### Git workflow
-- We use `git pull --rebase` instead of `git pull` in pretty much all cases. You can read about that [here](http://flatiron-labs.tumblr.com/post/80179930200/git-pull-rebase-vs-git-pull).
 
+- We use `git pull --rebase` instead of `git pull` in pretty much all cases. You can read about that [here](http://flatiron-labs.tumblr.com/post/80179930200/git-pull-rebase-vs-git-pull).
 - Flatiron Labs uses a Github workflow close to what is outlined [here](https://www.atlassian.com/git/tutorials/merging-vs-rebasing/the-golden-rule-of-rebasing).
+- We currently use [zenhub](https://www.zenhub.io/) to organize features, communicate to each other what we are working on, and prioritize. You must have a license so if you can't get access, you should ask JM or Jonas.
 
 ####Our Application Ecosystem
 We maintain a collection of internal services, each with their own set of responsibilities.
