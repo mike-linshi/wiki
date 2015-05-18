@@ -6,7 +6,8 @@
 - Completing that will take care of most the stuff you need company wide. After you get the accounts you need, come on back here.
 
 ###Environment Setup
-- Make sure you have [your ideal environment set up](https://github.com/flatiron-school-curriculum/ruby-environment-setup).
+- Make sure you have [your ideal environment set up](https://github.com/learn-co-curriculum/ruby-environment-setup).
+- If you encounter a 404 when click on the link, ask Jonas to make sure you have permission to view the learn-co-curriculum repository.
 
 ###Tools You Might Consider:
 - A list of Github [dotfiles](http://dotfiles.github.io/) that you might want to consider using.
