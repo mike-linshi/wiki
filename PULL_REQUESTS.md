@@ -27,13 +27,13 @@ If you're not quite comfortable with what you're doing, it's okay to put it out 
 
 ### Launching to Server
   - Open a PR
-  - Test on QA
-  - Solicit feedback by asking for a PR with tags or on the slack channel
+  - Solicit feedback by asking for a PR with tags or on the Slack channel
   - Be available to respond to comments and questions
   - Make revisions
   - Get a thumbs up from 2 people and at least one senior dev
+  - If changes are user facing, test on QA and get the thumbs up from Kaitlin
   - Merge into master
-  - Test on Staging
+  - Test on Staging and watch for errors
   - Deploy to production and watch for errors
 
 ### Being a Good Driver
