@@ -9,6 +9,11 @@
 - Make sure you have [your ideal environment set up](https://github.com/learn-co-curriculum/ruby-environment-setup).
 - If you see a 404 when clicking on this link, ask Jonas to give you permission to access the learn-co-curriculum organization.
 
+### Other invites you'll need
+- [Airbrake](https://flatironlabs.airbrake.io/login)
+- [Zenhub](https://www.zenhub.io/)
+- [Code Climate](https://codeclimate.com)
+
 ###Tools You Might Consider:
 - A list of Github [dotfiles](http://dotfiles.github.io/) that you might want to consider using.
 - [Alfred](http://www.alfredapp.com/) saves you time when you search for files online or on your Mac.
