@@ -41,7 +41,7 @@ See how we talk about them:
 - You'll want to get familiar with the Flatiron Labs [Githhub Repository](https://github.com/flatiron-labs) and The Flatiron Labs [wiki](https://github.com/flatiron-labs/wiki). You are going to want to check out [Ironboard](https://github.com/flatiron-labs/ironboard) which is the internal project name for the code that runs Learn.co. Here is an [introduction](https://github.com/flatiron-labs/ironboard/wiki/Intro-to-Learn) to how it works under the hood and we also have a [script to help you](https://github.com/flatiron-labs/ironboard#1-learn-development-for-devs-on-ib) spin it up locally. Also check out:
   - [Ironbroker](https://github.com/flatiron-labs/iron-broker)
   - [Curriculum](https://github.com/flatiron-labs/lms-curriculum-app)
-  - [Ironbuild](https://github.com/flatiron-school/iron-build-manager)
+  - [Ironbuild](https://github.com/flatiron-labs/iron-build-manager)
   - [Environmentalizer](https://github.com/flatiron-school/environmentalizer)
   - [Ironboard Gem](https://github.com/flatiron-labs/ironboard-gem)
   - [Registrar](https://github.com/flatiron-labs/registrar)
