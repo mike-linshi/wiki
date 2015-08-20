@@ -2,7 +2,7 @@
 
 #### Congratulations on joining the team at Flatiron Labs! This is a guide of helpful todos, links, and resources to ease your transition and guide you through the first day.
 
-### Ask Mike Linshi about the [trello board](https://trello.com/b/ufYkaydb/onboarding)
+### Ask Mike Linshi about the staff onboarding track on Learn
 - Completing that will take care of most the stuff you need company wide. After you get the accounts you need, come on back here.
 
 ###Environment Setup
